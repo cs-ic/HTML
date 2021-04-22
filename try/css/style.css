@@ -1,0 +1,156 @@
+/* h1{
+    color:green;
+} */
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+/* p{
+    color : #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.6em;
+} */
+.container{
+    margin: auto;
+    width: 90%;
+}
+
+.clear-fix{
+    clear:both;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.box-1 h1{
+    color:pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.box-2{
+    border: 3px blueviolet solid;
+    background-color: rgb(48, 14, 68);
+
+    padding: 10px;
+
+}
+.box-2 h1{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.catogries {
+    background-color: burlywood;
+    padding: 5px;
+    margin: 2px 0;
+    border: 4px black dotted;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+.my-form{
+    padding: 20px; 
+}
+
+.my-form .form-group{
+    padding: 15px; 
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type = "text"], .my-form input[type = "email"], .my-form .form-group textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"]{
+    background-color: darkgrey;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+.my-form input[type="submit"]:hover{
+    background-color: red;
+    color: white;
+}
+
+.Block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#side-bar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px black solid;
+    margin-top: 30px;  
+    position: relative; 
+    background-image: url("https://wallpaperaccess.com/full/231581.jpg");
+}
+
+p-box h1{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+
+}
+
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+
+.fix-me{
+    padding: 10px 15px;
+	border: none;
+    border-width: 0px;
+}
+
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+    top: 400px;
+	left:0px;
+    position: fixed;
+}
+
+.button:hover{
+	background: red;
+	color: #fff;
+}
